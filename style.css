@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.dark {
+    background: rgb(70, 67, 67);
+    color: #EBE9E8;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background: white;
+    color: black;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    font-size: large;
+}
+
+.header__Title {
+    color: #db143c;
+    padding: 50px;
+}
+
+.mainText__header {
+    padding: 50px;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.mode {
+    font-size: large;
+    margin: auto;
+}
+
+.mainText__text {
+    text-align: left;
+    padding: 15px;
+    line-height: 25px;
+}
+
+.table__body {
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 7%;
+
+}
+
+.table__bodyValue {
+    border-top: 0.5px solid black;
+    padding: 10px;
+}
+
+.table__bodyTheme {
+    padding: 10px;
+}
+
+.photo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-image: auto;
+}
+
+.navigation__list {
+    text-align: left;
+}
+
+.navigation__item {
+    display: inline;
+    font-size: 13px;
+    margin-right: 5px;
+
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: black;
+}
+
+.table__name {
+    text-align: left;
+}
+
+.tableThema {
+    text-align: center;
+}
+
+.navigation__title {
+    text-align: left;
+    margin-bottom: 0;
+}
